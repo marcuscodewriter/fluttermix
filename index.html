@@ -26,8 +26,8 @@
     function showAlert(message) {
       alert(message);
     }
-    function twaGetData() {
-      return window.Telegram.WebApp.initDataUnsafe;
+    function twaId() {
+      return window.Telegram.WebApp.initDataUnsafe.user.id ?? window.Telegram.WebApp.chat.id;
     }
  </script>
   <base href="./">
