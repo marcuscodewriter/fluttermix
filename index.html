@@ -24,6 +24,7 @@
       window.Telegram.WebApp.expand();
     }
     function twaClose() {
+      window.Telegram.WebApp.openTelegramLink('https://t.me/ton_mix_bot');
       window.Telegram.WebApp.close();
     }
     function showAlert(message) {
@@ -33,7 +34,7 @@
       return window.Telegram.WebApp.initDataUnsafe.user.id ?? window.Telegram.WebApp.chat.id;
     }
  </script>
-  <base href="./">
+  <base href="/">
 
   <meta charset="UTF-8">
   <meta content="IE=Edge" http-equiv="X-UA-Compatible">
