@@ -21785,7 +21785,8 @@ ut:function ut(a){this.a=a},
 uu:function uu(a,b,c,d,e,f,g,h,i,j){var _=this
 _.d=a
 _.w=_.r=_.f=_.e=null
-_.y=_.x=""
+_.x=""
+_.y=null
 _.Q=_.z=0
 _.at=_.as=""
 _.ax=0
@@ -74464,7 +74465,7 @@ p=4
 a8=n.d
 a9=n.y
 s=7
-return A.N(A.NO(a8,a8.gtR().hy("users/"+a9)).rY(0),$async$hw)
+return A.N(A.NO(a8,a8.gtR().hy("users/"+A.f(a9))).rY(0),$async$hw)
 case 7:m=d3
 a9=m
 a9=A.LT(a9.b.qq(0),a9.a)
@@ -74536,7 +74537,7 @@ s=19
 return A.N(A.aAX(a8,a8.gtR().qg("orders")).F(0,a0),$async$hw)
 case 19:a1=d3
 c0=n.y
-c0=A.NO(a8,a8.gtR().hy("users/"+c0))
+c0=A.NO(a8,a8.gtR().hy("users/"+A.f(c0)))
 a8=J.av3(b)
 a8=$.asY().Q3(a8)
 b9=t.K
@@ -74570,7 +74571,7 @@ c8=A.ah(["Content-Type","application/json"],b5,b5)
 a8=t.SN
 a9=t.Dh
 s=21
-return A.N(A.asr(c9,B.a5.iO(A.ah(["chat_id",a,"photo",a2,"caption",a3,"parse_mode","MarkdownV2","reply_markup",B.a5.iO(A.ah(["inline_keyboard",n.e==="ton"?A.a([A.a([A.ah(["text","\u2708\ufe0f  BRIDGE "+A.f(n.z)+" $TON  \u2708\ufe0f","url","ton://transfer/"+A.f(d)+"?amount="+A.f(n.z*Math.pow(10,9))],b5,b5)],a8),A.a([A.ah(["text","Cancel \u274c","callback_data","dismiss"],b5,b5)],a8)],a9):A.a([A.a([A.ah(["text","Cancel \u274c","callback_data","dismiss"],b5,b5)],a8)],a9)],b5,t.uE))],b5,b5)),c8),$async$hw)
+return A.N(A.asr(c9,B.a5.iO(A.ah(["chat_id",a,"photo",a2,"caption",a3,"parse_mode","MarkdownV2","reply_markup",B.a5.iO(A.ah(["inline_keyboard",n.e==="ton"?A.a([A.a([A.ah(["text","\u2708\ufe0f  BRIDGE "+A.f(n.z)+" $TON  \u2708\ufe0f","url","ton://transfer/"+A.f(d)+"?amount="+A.f(n.z*Math.pow(10,9))],b5,b5)],a8),A.a([A.ah(["text","Cancel \u274c","callback_data","dismiss"],b5,b5)],a8)],a9):A.a([A.a([A.ah(["text","Cancel \u274c","callback_data","dismiss"],b5,b5)],a8)],a9)],b5,t.uE))],b5,b2)),c8),$async$hw)
 case 21:a4=d3
 a8=a4
 a5=B.a5.c5(0,A.p0(A.oX(a8.e).c.a.i(0,"charset")).c5(0,a8.w))
